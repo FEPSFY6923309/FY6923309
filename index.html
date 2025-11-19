@@ -68,7 +68,13 @@
       <td><a href="#Introduction">Introduction</td>
     </tr>
     <tr>
-      <td><a href="#Analysis and discussion">Analysis and discussion</td>
+      <td><a href="#Extraterrestrial uses through ROVs ">Extraterrestrial uses through ROVs </td>
+    </tr>
+    <tr>
+      <td><a href="#Exploration of The deep sea  ">Exploration of The deep sea  </td>
+    </tr>
+<tr>
+      <td><a href="#clean up after natural disasters">clean up after natural disasters </td>
     </tr>
 
     <tr>
@@ -113,49 +119,61 @@ surveying via UAVs (unmanned aerial vehicle) with LIDARs (light detection and ra
   </p>
     <hr>
 
-    <h3> id="#Analysis and discussion">Analysis and discussion"</h3>
-    Table 1:data on cost and lifespan of bridge repairs
-    <table>
-      <tr>
-        <th>
-          £ cost of repairs
-        </th>
-        <th>
-          Lifespan of repairs(years)
-        </th>
-      </tr>
-      <tr>
-        <td>0.7 m</td>
-        <td>2</td>        
-      </tr>
-      <tr>
-        <td>3.3 m</td>
-        <td>4</td>  
-      </tr>
-      <tr>
-        <td>2.6 m</td>
-        <td>5</td>  
-      </tr>
-      <tr>
-        <td>17.4 m</td>
-        <td>7</td>  
-      </tr>
-      <tr>
-        <td>8.8 m</td>
-        <td>9</td>  
-      </tr>
-    </table>
-    <a href=”https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034”>Toshihiko et al
-(2023).</a>
+    <h3 id="#Extraterrestrial uses through ROVs"> Extraterrestrial uses through ROVs "</h3>
+The vacuum of space is one of the harshest environments known to humanity, and reaching it is just as dangerous. Because the only way to escape 
+Earth’s atmosphere is by rocket, human spaceflight involves significant risk, complex engineering challenges, and extremely high financial cost. 
+This is one reason satellites and remotely operated vehicles (ROVs) have become attractive alternatives to crewed missions, as they allow exploration 
+without exposing humans to danger. The Apollo program illustrates the expense of human spaceflight: it included eleven piloted missions, but only six 
+achieved lunar landings. The program cost 25.8 billion USD at the time, equivalent to about 281 billion USD in 2025, meaning each landing cost around 
+46.8 billion USD (Richard H., 2019).
 
+In contrast, robotic missions are far more economical. The Mars Exploration Rover (MER) mission, for example, cost about 1 billion USD in 2019 and 
+remained operational for 15 years (The Planetary Society). Rovers can function in extreme conditions for extended periods and require no life-support 
+systems, food, or return capability. They primarily need power and software updates, making them significantly cheaper and easier to operate. For this 
+reason, ROVs offer an efficient and cost-effective alternative for exploring environments where direct human presence is unnecessary.
+
+     <h3 id="Exploration of The deep sea ">Exploration of The deep sea </h3>
+    <p>
+Not only are unmanned vehicles used to explore new territories in space, but they are also essential for investigating some of the most inaccessible 
+regions of our planet, particularly the deep sea, where the environment becomes nearly as hostile as outer space. Piloted missions in the deep ocean are 
+extremely dangerous due to the immense pressure at great depths, requiring the use of specialised submarines to ensure human safety (NOAA, 2024). For 
+this reason, autonomous underwater vehicles (AUVs) are commonly used, as they are designed to withstand these high pressures and are more space-efficient 
+because they do not require oxygen systems or crew quarters. AUVs also greatly reduce risk to human life; if a mechanical failure or pressure-related 
+incident occurs, only the vehicle is lost rather than its operators.
+      
+    </p>
+    <h3 id="clean up after natural disasters  ">clean up after natural disasters  </h3>
+    <p>
+Natural disasters are inevitable, which has led to the development of preparation strategies and post-disaster responses aimed at reducing casualties. 
+One example is the use of unmanned aerial vehicles (UAVs), which can detect incoming disasters and gather real-time information without putting human 
+scouts at risk (Luo et al., 2019). After a disaster occurs, UAVs remain valuable tools, as they can navigate damaged or unstable terrain from the air to 
+support search and rescue operations. This allows rescue teams to choose the safest possible routes while still responding quickly, since UAVs can cover 
+large areas in a short amount of time. By improving both safety and efficiency, UAVs play a crucial role in modern disaster management.
+    </p>
+    
     <h3 id="References">References</h3>
     <p>
      (NOAA,2020) NOAA Ocean Exploration, 2020. What is an AUV? NOAA Ocean Exploration. Available at: https://oceanexplorer.noaa.gov/ocean-fact/auv/
  [Accessed 18 November 2025].
-      (Wessex Archaeology, n.d.) Wessex Archaeology, n.d. Unmanned Aerial Vehicle (UAV). Wessex Archaeology. Available at: https://www.wessexarch.co.uk/archaeological-services/unmanned-aerial-vehicle-uav
+      
+      (Wessex Archaeology, n.d.) Wessex Archaeology, n.d. Unmanned Aerial Vehicle (UAV). Wessex Archaeology. Available at: 
+      https://www.wessexarch.co.uk/archaeological-services/unmanned-aerial-vehicle-uav
  [Accessed 18 November 2025].
-      CC(200)
+      
+      Richard H (2019)) , Apollo in 50 numbers: The cost, BBC Future, (accessed 30/10/2025) 
+
+The Planetary Society, Cost of the Mars Exploration Rovers, Cost of the Mars Exploration Rovers | The Planetary Society ,(accessed in 30/20/2025) 
+
+NOAA(2024), How does pressure change with ocean depth?, 
+
+How does pressure change with ocean depth?,(accessed in 30/20/2025) 
+
+Luo, C., Miao, W., Ullah, H., McClean, S., Parr, G., Min, G. (2019). Unmanned Aerial Vehicles for Disaster Management. In: Durrani, T., Wang, W., 
+Forbes, S. (eds) Geological Disaster Monitoring Based on Sensor Networks. Springer Natural Hazards. Springer, Singapore. Unmanned Aerial Vehicles 
+for Disaster Management | SpringerLink (accessed in 30/20/2025) 
     </p>
+
+   
 
     <!-- //////////////////////////////////////////////////////////////////////////////// -->
   <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
@@ -228,10 +246,13 @@ surveying via UAVs (unmanned aerial vehicle) with LIDARs (light detection and ra
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("Abstract");
-    const AnalysisCount = displayWordCount("Analysis_InText");
+    const AbstractCount = displayWordCount("Abstract");
+    const IntroductionCount = displayWordCount("Introduction");
+    const EUTROVCount = displayWordCount("Extraterrestrial uses through ROVs");
+    const EOTDSCount = displayWordCount("Exploration of The deep sea");
+    const CUANDCount = displayWordCount("clean up after natural disasters");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount;
+    const totalWordCount = AbstractCount + IntroductionCount +EUTROVCount+EOTDSCount+CUANDCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
