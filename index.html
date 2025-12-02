@@ -88,7 +88,7 @@
     
   <p class ="ex1">
     
-    <pre>
+    <pre id="Abstract_intext">
 
 From exploration to excavation there is always a constant danger to human life. Whether it be withstanding the great pressure 
 in the deep sea to the extremely low pressure in space or traversing treacherous terrain, humans have invented many autonomous 
@@ -105,7 +105,7 @@ specific role ensuring saftey and efficiency.
   <hr>
     <h3 id="Introduction">Introduction</h3>
     <p = class="ex2">
-      <pre>
+      <pre id="introduction_intext">
         
 unmanned vehicles have significantly enhanced our modern world enableing humans to undergo tasks and explore invironments that 
 would be to dangerous or unaccecible otherwise. Humans will constantly face adversity while we grow and explore whether it be 
@@ -122,7 +122,7 @@ do unmanned crafts assist us in these extreme environments but they also help in
 
     <h3 id="#Extraterrestrial uses through ROVs"> Extraterrestrial uses through ROVs "</h3>
     <p>
-      <pre>
+      <pre id="EUTR_intext">
 The vacuum of space is one of the harshest environments known to humanity, and reaching it is just as dangerous. Because the only 
 way to escape Earth’s atmosphere is by rocket, human spaceflight involves significant risk, complex engineering challenges, and 
 extremely high financial cost. This is one reason satellites and remotely operated vehicles (ROVs) have become attractive alternatives 
@@ -142,7 +142,7 @@ direct human presence is unnecessary.
 
      <h3 id="Exploration of The deep sea ">Exploration of The deep sea </h3>
     <p>
-      <pre>
+      <pre id = "EOTDS_intext">
 Not only are unmanned vehicles used to explore new territories in space, but they are also essential for investigating some of the most 
 inaccessible regions of our planet, particularly the deep sea, where the environment becomes nearly as hostile as outer space. Piloted 
 missions in the deep ocean are extremely dangerous due to the immense pressure at great depths, requiring the use of specialised 
@@ -156,7 +156,7 @@ its operators.
     </p>
     <h3 id="clean up after natural disasters  ">clean up after natural disasters  </h3>
     <p>
-      <pre>
+      <pre id="CUAND_intext">
  Natural disasters are inevitable, which has led to the development of preparation strategies and post-disaster responses aimed at 
 reducing casualties. One example is the use of unmanned aerial vehicles (UAVs), which can detect incoming disasters and gather 
 real-time information without putting human scouts at risk (Luo et al., 2019). After a disaster occurs, UAVs remain valuable tools, as 
@@ -169,7 +169,7 @@ and efficiency, UAVs play a crucial role in modern disaster management.
     
     <h3 id="References">References</h3>
     <p>
-      <pre>
+      <pre id="Ref_intext">
      (NOAA,2020) NOAA Ocean Exploration, 2020. What is an AUV? NOAA Ocean Exploration. Available at: 
       https://oceanexplorer.noaa.gov/ocean-fact/auv/
  [Accessed 18 November 2025].
@@ -269,12 +269,12 @@ for Disaster Management | SpringerLink
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const AbstractCount = displayWordCount("Abstract");
-    const IntroductionCount = displayWordCount("Introduction");
-    const EUTROVCount = displayWordCount("Extraterrestrial uses through ROVs");
-    const EOTDSCount = displayWordCount("Exploration of The deep sea");
-    const CUANDCount = displayWordCount("clean up after natural disasters");
-    const RefCount = displayWordCount("References");
+    const AbstractCount = displayWordCount("Abstract_intext");
+    const IntroductionCount = displayWordCount("introduction_intext");
+    const EUTROVCount = displayWordCount("EUTR_intext");
+    const EOTDSCount = displayWordCount("EOTDS_intext");
+    const CUANDCount = displayWordCount("CUAND_intext");
+    const RefCount = displayWordCount("Ref_intext");
     // Calculate the sum of all selected sections
     const totalWordCount = AbstractCount + IntroductionCount + EUTROVCount + EOTDSCount + CUANDCount + RefCount;
     // Display the total word count
